@@ -3,7 +3,8 @@
 
     class Bass : Music
     {
-        public Bass(char note):Music(note)
+        private Dictionary<int, int> frequencies;
+        public Bass(char note,Dictionary<int,int> frequencies):Music(note)
         {
 
         }
