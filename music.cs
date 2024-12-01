@@ -1,6 +1,6 @@
 ﻿namespace Musical
 {
-   abstract class Music
+    internal abstract class Music
     {
         private char note;
 
@@ -12,7 +12,7 @@
 
         public char Note
         {
-            get=> note;
+            get => note;
         }
 
         //base clase called music
